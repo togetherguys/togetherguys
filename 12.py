@@ -7,3 +7,4 @@ for i in range(101,201):
     if flag==0:
         result.append(i)
 print(len(set(result)))
+print(sorted(list(set(result)),reverse=False))    #此处进行过修改。
