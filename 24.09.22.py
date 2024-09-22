@@ -1,0 +1,17 @@
+import numpy  as np
+data1 = np.array([1, 2, 3])
+print(data1)
+data2 = np.array([[1, 2, 3], [4, 5, 6]])
+print(data2)
+print(type(data2))
+float_data = data2.astype(np.float64)
+data = np.array([[1, 2, 3], [4, 5, 6]]) 
+print(data.dtype)
+float_data = data.astype(np.float64)
+print(float_data)
+int_data = float_data.astype(np.int64)
+print(int_data)
+str_data = np.array(['1', '2', '3'])
+int_datas = str_data.astype(np.int64)
+print(int_datas)
+
